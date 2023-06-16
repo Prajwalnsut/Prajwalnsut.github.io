@@ -1,0 +1,70 @@
+.footer{
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    bottom: 2rem;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+
+.txts{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.txts p{
+    margin: 0.3rem 1rem;
+    font-size: 1.1rem;
+}
+
+.social{
+    width: 20%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .social{
+        position: absolute;
+        bottom: -30rem;
+        width: 60%;
+    }
+    .txts p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .social{
+        bottom: -42rem;
+    }
+}
+@media screen and (max-width: 410px){
+    .social{
+        bottom: -50rem;
+    }
+}
+
+@media screen and (max-height: 850px) {
+    
+    .social{
+        bottom: -166rem;
+    }
+}
+
+@media screen and (max-height: 900px) {
+    
+    .social{
+        bottom: -181rem;
+    }
+}

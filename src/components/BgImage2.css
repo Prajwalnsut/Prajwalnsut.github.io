@@ -1,0 +1,41 @@
+.bg{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bg::before{
+    content: "";
+    background: url("../images/home-bg2.avif");
+    opacity: 0.3;
+    background-size: cover;
+    background-position: center top;
+    height: 90vh;
+    width: 100%; 
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.heading h1{
+    font-size: 3.5rem;
+    font-weight: 200;
+}
+
+.heading p{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 500px) {
+    .heading h1{
+        font-size: 3rem;
+    }
+    .heading p{
+        font-size: 1rem;
+    }
+}
