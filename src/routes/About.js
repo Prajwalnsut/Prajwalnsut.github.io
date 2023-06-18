@@ -19,8 +19,6 @@ function About() {
           <h5 className='txt'>I am a first year student in NSUT. I have learned Data Structures and Algorithms and Web Development, and I am currently learing App Development.</h5>
           <Link to="/contact" className="about-btn">Contact me</Link>
         </div>
-
-        <Footer/>
     </div>
     
   );
